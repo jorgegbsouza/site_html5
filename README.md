@@ -16,3 +16,5 @@ O site é composto em 5 abas, sendo elas | HOME | , | INFORMAÇÔES | , | VACINA
 Também é incluso o rodapé com minhas redes sociais e uma mensagem artifical de direitos autorais. 
 
 Tecnologias usadas no projeto = **html5, ccs3 e javascript**.
+
+Dentro da pasta tem o arquivo [Diretrizes de contribuição para este projeto](imagens_do_site)
