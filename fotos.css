@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+ul#album li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background: rgba(0,0,0,.3);
+    font-size: 9px;
+    line-height: 380px;
+    padding: 3px;
+}
+
+
+ul#album li:hover span{
+    opacity: 1;
+    
+}
+
+ul#album{
+    width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgb(230, 225, 225);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: all 0.5s ease-in;
+    
+}
+
+ul#album li:hover{
+    transform:scale(1.5);
+}
+
+ul#album li#foto1{
+    background: url(midia/vacina1.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto2{
+    background: url(midia/vacina2.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto3{
+    background: url(midia/vacina3.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+p{
+    text-align: center;
+}

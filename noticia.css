@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1#not1{
+    text-align: center;
+}
+
+img#imgnot{
+    margin-left: 200px;
+}
+
+p{
+    text-align: center;
+}
+
+p#text{
+    text-align: center;
+}

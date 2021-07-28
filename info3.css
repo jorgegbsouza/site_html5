@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-info{
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frame-info::-webkit-scrollbar{
+    display: none;
+    
+}
+
+img#mapa{
+    margin-left: 25px;
+}

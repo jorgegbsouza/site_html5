@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funcoes.js"></script>
+    <link rel="stylesheet" href="info3.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="shortcut icon" href="midia/Ampeross-Qetto-2-Info.ico" type="image/x-icon">
+</head>
+<body> 
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Coronavírus</h1>
+                <h2> Informações Gerais Sobre o Novo Coronavírus</h2>
+            </hgroup>
+            <img id="icone" src="midia/informacao.png" alt="">
+            <nav id="menu">
+            <h1>Menu Principal</h1> 
+            <ul>
+            <li onmouseover="mudaFoto('midia/home.png')" onmouseout="mudaFoto('midia/informacao.png')"><a href="infor.html"><a href="index.html">HOME</a></li> 
+            <li onmouseover="mudaFoto('midia/informacao.png')" onmouseout="mudaFoto('midia/informacao.png')"><a href="infor.html">INFORMAÇÕES</a></li> 
+            <li onmouseover="mudaFoto('midia/vacina.png')" onmouseout="mudaFoto('midia/informacao.png')"><a href="infor.html"><a href="vacina.html">VACINAS</a></li> 
+            <li onmouseover="mudaFoto('midia/jornal.png')" onmouseout="mudaFoto('midia/informacao.png')"><a href="infor.html"><a href="not.html">NOTÍCIAS</a></li> 
+            <li onmouseover="mudaFoto('midia/multimidia.png')" onmouseout="mudaFoto('midia/informacao.png')"><a href="infor.html"><a href="multi.html">MULTIMÍDIA</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+                <article id="manchete">
+                    <header id="manchete2">
+            <h1>Informações Coronavírus</h1>
+            <h3>Por Jorge Gabriel</h3>
+            <h3>Atualizado em 26/Julho/2021</h3>
+
+            <h1>
+                Veja uma lista dos sintomas mais comuns, presentes isoladamente ou 
+                diferentes combinações.
+            </h1>
+    <ul> 
+        <li>Febre ou calafrios
+        <li>Tosse
+        <li>Falta de ar
+        <li>Fadiga
+        <li>Dores pelo corpo
+        <li>Dor de garganta
+        <li>Dor de Cabeça
+        <li>Coriza
+        <li>Diarréia
+        <li>Náuseas
+        <li>Anosmia (ausência de olfato)
+    </ul>
+    <img id="doutor" src="midia/cartoon-doctor-5022797_640.jpg" alt="">
+    <h2>Conheça as diferenças entre os exames para COVID-19</h2>
+    
+        <p><strong>PCR é a metodologia “padrão-ouro”</strong> capaz de detectar a presença do vírus nos pacientes. O exame é feito em material coletado da garganta e do nariz (em ambientes hospitalares, pode ser utilizada secreção do pulmão, o que aumenta a assertividade do teste), e por meio de técnicas de biologia molecular, detecta o material genético do vírus na amostra do paciente. O exame é recomendado para o diagnóstico de COVID-19 para pessoas com sintomas e pode detectar a presença do vírus em média até o 12º dia de sintomas. <br></p>
+        <p><strong>Sorologia</strong> são testes imunológicos capazes de detectar os níveis de anticorpos IgM e IgG em amostra de sangue do paciente. É aconselhado para pacientes com sintomas a partir do sétimo dia, tempo que leva para os anticorpos começarem a ser produzidos. Ressaltamos que um resultado negativo NÃO exclui a presença da doença. <br></p>
+        <p><strong>Teste de antígeno</strong> tem como objetivo identificar a infecção atual de COVID-19 em indivíduos e é realizado quando uma pessoa apresenta sinais ou sintomas.  Pode ser utilizado em pacientes assintomáticos que tiveram contato com caso positivo - nesse caso, recomendamos a repetição do teste em 72 horas, caso o resultado seja negativo. É um exame mais rápido na divulgação dos resultados, de 2 a 3 horas após a aplicação do teste.</p>
+        <p id="text">
+            Dados retirados do site <a target="_blank" href="https://dasa.com.br/coronavirus#lp-pom-block-3150">DASA</a>.  (Usos dos dados apenas para meios acadêmicos)
+        </p>
+        
+
+            <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os casos de Covid-19. Qualquer ponto colorido vai te levar a novas informações em tabela.</p>
+            <section id="conteudo">
+                <img id="mapa" src="midia/mapabrasil.png" alt="Mapa de SP" usemap="#meumapa">
+                <map name="meumapa">
+                    
+                    <!--COMANDOS PARA SELECIONAR TODAS AS ÁREAS DA REGIÃO CENTRO-OESTE DO MAPA-->
+                    <area shape="rect" coords="132,137,205,224" href="infor2.html#co" target="janela">
+                    <area shape="poly" coords="195,242,179,255,178,262,166,260,162,245,145,244,143,225,147,208,159,201,194,241" href="infor2.html#co" target="janela">
+                    <area shape="poly" coords="113,125,114,141,126,146,167,133,154,131,143,114,139,126,114,126" href="infor2.html#co" target="janela">
+                    <area shape="poly" coords="232,211,210,164,247,172,250,180,246,179,239,183, 235,195,237,207,233,212" href="infor2.html#co" target="janela">
+
+                    <!--COMANDOS PARA SELECIONAR TODAS AS ÁREAS DA REGIÃO SUL DO MAPA-->
+                    <area shape="rect" coords="172,251,213,337" href="infor2.html#sul" target="janela">
+                    <area shape="poly" coords="163,304,192,340,184,349,183,340,170,327,151,317,163,304" href="infor2.html#sul" target="janela">
+                    <area shape="poly" coords="216,265,213,309,224,295,226,273,217,265" href="infor2.html#sul" target="janela">
+
+                    <!--COMANDOS PARA SELECIONAR TODAS AS ÁREAS DA REGIÃO SUDESTE DO MAPA-->
+                    <area shape="poly" coords="188,249,210,217,239,208,241,180,265,178,303,195,296,205,300,214,286,249,258,257,227,271,214,253,190,248" href="infor2.html#sudeste" target="janela">
+
+                    <!--COMANDOS PARA SELECIONAR TODAS AS ÁREAS DA REGIÃO NORTE DO MAPA-->
+                    <area shape="rect" coords="38,35,235,124" href="infor2.html#norte" target="janela">
+                    <area shape="poly" coords="213,133,211,160,243,169,244,140,230,94,213,132,214,132" href="infor2.html#norte" target="janela">
+                    <area shape="poly" coords="3,116,66,138,48,149,30,146,2,123,2,116" href="infor2.html#norte" target="janela">
+                    <area shape="poly" coords="82,11,90,27,97,30,126,27,127,12,123,1,100,13,83,11" href="infor2.html#norte" target="janela">
+                    <area shape="poly" coords="166,26,199,58,218,36,204,9,189,28,165,26" href="infor2.html#norte" target="janela">
+                    <area shape="poly" coords="229,58,243,77,251,58,234,52,229,58" href="infor2.html#norte"
+                     target="janela">
+                     <area shape="poly" coords="69,136,100,118,112,126,110,141,115,147,123,147,126,157,120,167,85,159,78,147,78,137,68,138" href="infor2.html#norte" target="janela">
+                    
+                    <!--COMANDOS PARA SELECIONAR TODAS AS ÁREAS DA REGIÃO NORDESTE DO MAPA-->
+                    <area shape="poly" coords="252,58,231,92,249,141,251,182,264,175,271,177,303,194,296,207,304,214,314,165,316,168,350,126,348,100,334,97,304,74,274,71,266,72,263,61,253,58" href="infor2.html#nordeste" target="janela">
+                </map>
+                <iframe src="infor2.html" name="janela" id="frame-info" scrolling="no"></iframe>
+            </section>
+                  </article>
+                    </header>      
+        </section> 
+        
+    <footer id="rodape">
+        <p>Copyright &copy; 2021 - by Jorge Gabriel <br>
+            <a target="_blank" href="https://www.facebook.com/JorgeGabrielBorgesSouza/">Facebook</a> | <a target="_blank" href="https://www.instagram.com/eijorgee/">Instragram</a></p>
+    </footer>
+</body>
+</html>

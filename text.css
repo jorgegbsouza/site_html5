@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+p#text{
+    background-color: rgb(207, 202, 202);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}

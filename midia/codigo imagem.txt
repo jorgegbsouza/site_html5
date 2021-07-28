@@ -1,0 +1,6 @@
+<figure class="foto-legenda">
+                <img src="midia/images.jpg" alt="">
+                <figcaption style="font-size: 13px;">
+                    Foto Ilustrativa do Coronavírus.
+                </figcaption>
+</figure>

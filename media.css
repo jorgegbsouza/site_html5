@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div#radio{
+    width: 900;
+    height: 580px;
+    margin: auto;
+    background: url(midia/radio-tv.png) no-repeat;
+}
+
+video#videoyt{
+    display: block;
+    position: relative;
+    width: 450px;
+    top: 120px;
+    left: 81px;
+}
+
+audio#podcast{
+    display: block;
+    position: relative;
+    width: 300px;
+    top: 236px;
+    left: 574px;
+}
