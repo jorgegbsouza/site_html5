@@ -17,4 +17,4 @@ Também é incluso o rodapé com minhas redes sociais e uma mensagem artifical d
 
 Tecnologias usadas no projeto = **html5, ccs3 e javascript**.
 
-Dentro da pasta tem o arquivo [Diretrizes de contribuição para este projeto](imagens_do_site)
+Dentro da pasta tem o arquivo de [imagens](imagens_do_site) do site para ver de forma mais facil o resultado.
