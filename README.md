@@ -1,5 +1,5 @@
-# Primeiro site em HTML5
-## Esse é um projeto de site que criei com o auxílio do curso de HTML5 do professor Gustavo Guanabara.
+## Primeiro site em HTML5
+### Esse é um projeto de site que criei com o auxílio do curso de HTML5 do professor Gustavo Guanabara.
 
 Meu primeiro "projeto" em html5 usando css e um pouco de Javascript.
 Este site foi feito seguindo as aulas do curso de HTML5 do professor Gustavo Guanabara, entretanto mudei um pouco o conteúdo do site, antes era sobre Google Glass e agora coloquei um pouco de informação basíca sobre o coronavírus, para que se alguém quiser ver o código/site, aprenda um pouco sobre esse novo vírus. 
